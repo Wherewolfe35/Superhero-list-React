@@ -1,0 +1,8 @@
+ul {
+  list-style-type: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.4rem;
+}
+li {
+  padding-bottom: 10px;
+}
