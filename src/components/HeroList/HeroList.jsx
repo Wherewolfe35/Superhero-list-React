@@ -8,7 +8,7 @@ class HeroList extends Component {
     return ( 
       <div>
         <ul>
-          {this.props.heroList.map(hero => <HeroItem hero={hero}/>)}
+          {this.props.heroList.map(hero => <HeroItem hero={hero} revengersAssemble={this.props.revengersAssemble}/>)}
         </ul>
       </div>
      );
